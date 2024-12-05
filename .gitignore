@@ -1,0 +1,58 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Environment variables
+.env
+
+# Flask instance and config files
+instance/
+config.py
+
+# Database files
+*.db
+
+# Logs and debug files
+*.log
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python virtual environments
+venv/
+.env/
+
+# MacOS and Linux system files
+.DS_Store
+*.~lock*
+Thumbs.db
+
+# Pytest cache
+.pytest_cache/
+.tox/
+
+# PyCharm files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MySQL credentials (if stored separately)
+*.cnf
+
+# Ignore compiled code (e.g., for C extensions)
+*.so
+*.o
+*.a
+
+# General backup files
+*.bak
+*.orig
+*.tmp
